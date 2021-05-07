@@ -1,7 +1,8 @@
 const path = require('path')
 
 module.exports = {
-  devtool: "eval-source-map",
+  mode: "production", // https://webpack.js.org/configuration/mode/
+  devtool: "source-map", // https://webpack.js.org/configuration/devtool/
   entry: path.resolve(__dirname, 'src', 'index.js'),
   output: {
     filename: "bundle.js",

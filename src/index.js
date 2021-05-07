@@ -4,9 +4,7 @@ import {render} from 'react-dom';
 class Greeter extends Component {
   render() {
     return (
-      <div>
-        Hello Webpack!
-      </div>
+      <span>Hello Webpack!</span>
     );
   }
 }

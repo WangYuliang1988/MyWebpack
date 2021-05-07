@@ -13,7 +13,7 @@ Webpack 是一个前端资源加载/打包工具，根据模块的依赖关系�
 
 ### Webpack 使用
 1. 在MyWebpack文件夹下，创建一个src文件夹，用于存放待编写的JavaScript文件；
-2. 在MyWebpack文件夹下，创建一个dist文件夹，用于存放供浏览器读取的文件，包括webpack打包后生成的js文件和一个index.js文件；
+2. 在MyWebpack文件夹下，创建一个dist文件夹，用于存放供浏览器读取的文件，包括index.html文件和webpack打包后生成的js文件；
 3. 在MyWebpack文件夹下，创建一个名为webpack.config.js的文件，配置待打包的文件及打包生成的文件名及文件存放路径；
 4. 在MyWebpack文件夹下，执行命令node_modules/.bin/webpack，完成打包；
 5. 使用浏览器打开index.html，页面正常展示，完成!
